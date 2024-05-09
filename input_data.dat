@@ -1,0 +1,7 @@
+ &LIST
+ nx = 21
+ ny = 21
+ D = 1
+ iter = 200
+ Delta_T = 0.000625
+ /
