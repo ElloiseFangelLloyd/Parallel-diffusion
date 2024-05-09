@@ -1,3 +1,6 @@
+
+
+
 # The two-dimensional diffusion problem in parallel
 
 This Fortran program solves the unsteady, two-dimensional temperature diffusion equation.
@@ -45,7 +48,9 @@ Input data (domain information, diffusion constant and similar) can be read in f
 
 The CPU and wall lock time can be measured using the timings routines included. 
 
-This program will use MPI for parallelisation. Exchange of domain boundaries between communicators is handled by `module_bounds.f90`. Included also is a `python` visualisation script for providing insights from timing data.
+This program will use MPI for parallelisation. Exchange of domain boundaries between communicators is handled by `module_bounds.f90`. 
+
+Included is a basic `python` visualisation script for providing insights from timing data.
 
 
 
@@ -63,3 +68,5 @@ mpirun -n <number_of_processes> ./diffusion
 ### Credits 
 
 Developed by Elloïse Fangel-Lloyd, Dana Lüdemann and Clemens Zengler. 
+
+
