@@ -26,7 +26,7 @@ $$
 A uniform Cartesian grid is chosen for simplicity. The grid sizes are expressed below. 
 
 $$
-\Delta x = \frac{L_x}{N_x - 1} \hspace{6cm} \Delta y = \frac{L_y}{N_y - 1}
+\Delta x = \frac{L_x}{N_x - 1} \qquad \Delta y = \frac{L_y}{N_y - 1}
 $$
 
 An explicit Eulerian time integration produces the centered algorithm integrated in this Fortran code. 
