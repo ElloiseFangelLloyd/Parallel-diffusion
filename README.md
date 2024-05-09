@@ -51,8 +51,6 @@ Included is a basic `python` visualisation script for providing insights from ti
 
 <img
   src="speedup.png"
-  alt="Alt text"
-  title="Optional title"
   style="display: block; margin: 0 auto; max-width: 300px">
 
 
